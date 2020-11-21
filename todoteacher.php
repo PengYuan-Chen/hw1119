@@ -32,7 +32,8 @@ if ($sname) {    //if title is not empty
 <tr><td><input name="talk" type="text" id="talk" /></td></tr>
 
 <h3>導師簽章</h3>
-<tr><td><a href="">Yes</a> <a href="">No</a> </td></tr>
+<a href="todosecretary.php">Yes</a> 
+<a href="studentForm.php">No</a>
 
 </body>
 </html>
