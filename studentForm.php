@@ -17,9 +17,6 @@ $result=mysqli_query($conn,$sql) or die("DB Error: Cannot retrieve message.");  
 <form method="post" action="todoteacher.php">
 申請人(學生)：<input type="text" id="sname" name="sname">
 學號：<input type="text" id="number" name="number">
-
- 
- 
 <h4>家庭狀況</h4>
 <table border="1">
 <tr>
@@ -41,7 +38,7 @@ $result=mysqli_query($conn,$sql) or die("DB Error: Cannot retrieve message.");  
 <input type="checkbox" value="1" name="c_1">低收入戶<br>
 <input type="checkbox" value="2" name="c_2">中低收入戶<br>
 <input type="checkbox" value="3" name="c_3">家庭突發狀況<br>
- <input type="submit" name="Submit" value="送出" />
+<input type="submit" name="Submit" value="送出" />
 </form>
 </body>
 </html>
